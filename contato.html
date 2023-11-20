@@ -46,11 +46,13 @@
                     <h1>Entre em contato conosco Ou mande mensagem pelo whatsapp</h1>
                     
     
-                    <form name="contato" action="">
+                    <form name="contato" target="_blank" onsubmit="alert('Mensagem Enviada');" method="post">
                         Nome <input type="text" name="nome" /><br><br>
-                        Idade <input type="number" name="idade"/><br><br>
+                        Idade <input type="number" min="0" max="200" step="0" name="idade"/><br><br>
                         E-mail <input type="email" name="email"><br><br>
-                        <button type="submit">Enviar</button>    
+                        <label>Escreva a sua Mensagem:</label><br>
+                        <textarea name="mensagem" id="" cols="20" rows="2"> </textarea><br>
+                        <button type="reset">Limpar</button>   <button type="submit">Enviar</button>    
     
                     </form>
 

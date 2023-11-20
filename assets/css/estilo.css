@@ -51,4 +51,19 @@ body {
     list-style: none;
     margin-top: 16px;
 }
+.tab {
+    border:5px sólido #0D0D0D;
+    border-collapse:colapso;
+    padding:5px;
+    
+}
+.tab th {
+    border:5px sólido #0D0D0D;
+    padding:5px;
+    background:#F0F0F0;
+}
+.tab td {
+    border:5px sólido #0D0D0D;
+    padding:5px;
+}
 
